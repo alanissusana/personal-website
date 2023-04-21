@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/girl-stem.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "happy version of a girl in tech";
 
 /**
  * Project list
@@ -31,27 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Cómo conseguí mi primer empleo en el mundo Cloud 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+    "Primera charla realizada con la comunidad de AWS Girls Perú.",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Primeros pasos en el mundo tech",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      "Primera charla en persona en el AWS Community Day Perú 2023.",
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
+    title: "Primeros pasos en el mundo Cloud usando Azure",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+      "Charla para pasar de MLSA New to Beta!🎉",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "More more, many more soon...",//complete in the future
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+      "Many new initiatives coming soon... Don't miss it!",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
@@ -59,8 +59,8 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
-      <h2>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <h2>Goals in life</h2>
+      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem"}}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
